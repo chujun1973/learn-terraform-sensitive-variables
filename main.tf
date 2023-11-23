@@ -8,7 +8,7 @@ provider "aws" {
 data "aws_availability_zones" "available" {
   state = "available"
 }
-
+#test
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "2.64.0"
